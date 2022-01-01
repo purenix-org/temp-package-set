@@ -107,6 +107,15 @@
   , repo = "https://github.com/spacchetti/purescript-metadata.git"
   , version = "v0.14.3"
   }
+, miraculix =
+  { dependencies =
+    [ "prelude"
+    , "foldable-traversable"
+    , "newtype"
+    ]
+  , repo = "https://github.com/thought2/purescript-miraculix.git"
+  , version = "v0.1.0"
+  }
 , newtype =
   { dependencies = [ "prelude", "safe-coerce" ]
   , repo = "https://github.com/purenix-org/purescript-newtype.git"
