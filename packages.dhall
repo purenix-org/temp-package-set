@@ -68,6 +68,11 @@
   , repo = "https://github.com/purenix-org/purescript-foldable-traversable.git"
   , version = "master"
   }
+, foreign =
+  { dependencies = [ "prelude" ]
+  , repo = "https://github.com/purenix-org/purescript-foreign.git"
+  , version = "main"
+  }
 , functors =
   { dependencies =
     [ "bifunctors"
