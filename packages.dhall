@@ -108,11 +108,7 @@
   , version = "v0.14.3"
   }
 , miraculix =
-  { dependencies =
-    [ "prelude"
-    , "foldable-traversable"
-    , "newtype"
-    ]
+  { dependencies = [ "prelude", "foldable-traversable", "newtype" ]
   , repo = "https://github.com/thought2/purescript-miraculix.git"
   , version = "v0.1.0"
   }
