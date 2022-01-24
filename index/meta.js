@@ -1,0 +1,1 @@
+window.DocsSearchMeta = {"localPackageName":"pkgs-with-all-deps"}
