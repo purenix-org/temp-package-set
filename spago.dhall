@@ -1,3 +1,7 @@
+-- This is a dummy spago.dhall file used for CI.  This takes all the packages defined in
+-- ./packages.dhall and adds them as dependencies.
+-- See ./.github/workflows/ci.yml for how this file is used.
+
 let List/map = https://prelude.dhall-lang.org/v11.1.0/List/map
 
 let Map = https://prelude.dhall-lang.org/v15.0.0/Map/Type
