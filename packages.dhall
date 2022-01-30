@@ -41,6 +41,11 @@
   , repo = "https://github.com/purenix-org/purescript-distributive.git"
   , version = "master"
   }
+, effect =
+  { dependencies = [ "prelude" ]
+  , repo = "https://github.com/purenix-org/purescript-effect.git"
+  , version = "main"
+  }
 , either =
   { dependencies = [ "control", "invariant", "maybe", "prelude" ]
   , repo = "https://github.com/purenix-org/purescript-either.git"
