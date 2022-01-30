@@ -115,7 +115,12 @@
 , miraculix =
   { dependencies = [ "prelude", "foldable-traversable", "newtype" ]
   , repo = "https://github.com/thought2/purescript-miraculix.git"
-  , version = "v0.1.0"
+  , version = "v0.2.0"
+  }
+, miraculix-lite =
+  { dependencies = [ "prelude", "newtype", "orders" ]
+  , repo = "https://github.com/thought2/purescript-miraculix.git"
+  , version = "v0.2.0-lite"
   }
 , newtype =
   { dependencies = [ "prelude", "safe-coerce" ]
